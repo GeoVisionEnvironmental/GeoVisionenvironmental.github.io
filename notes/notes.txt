@@ -1,0 +1,12 @@
+References:
+https://www.taniarascia.com/make-a-static-website-with-jekyll/
+https://gist.github.com/mattnorris/5307093
+https://css-tricks.com/building-a-jekyll-site-part-1-of-3/
+https://24ways.org/2013/get-started-with-github-pages/
+
+Themes
+https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme
+
+
+Markdown
+https://kramdown.gettalong.org/quickref.html
