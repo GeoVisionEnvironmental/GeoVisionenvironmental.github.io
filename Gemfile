@@ -18,6 +18,9 @@ gem "jekyll-theme-architect", "~> 0.1.1"
 # jquery-rails needed for bootstrap
 #gem 'jquery-rails'
 
+# protects site email
+gem "jekyll-email-protect"
+
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
