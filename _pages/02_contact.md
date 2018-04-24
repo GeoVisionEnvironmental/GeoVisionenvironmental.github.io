@@ -10,6 +10,6 @@ GeoVision Environmental Informatics Ltd.\\
 Victoria, BC, Canada\\
 Berkeley, CA, USA
 
-peter.sprague@geovisionenvironmental.com\\
-@uavforestry
+<a href="mailto:{{'peter.sprague@geovisionenvironmental.com' | encode_email}}" title="Email me">Email me</a><br>
+twitter: @uavforestry
 

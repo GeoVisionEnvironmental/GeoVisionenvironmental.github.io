@@ -33,8 +33,10 @@ github_username:  GeoVisionEnvironmental
 markdown: kramdown
 theme: minima
 #theme: jekyll-theme-architect
+
 plugins:
   - jekyll-feed
+  - jekyll-email-protect
   
 sass:
   sass_dir: _sass
