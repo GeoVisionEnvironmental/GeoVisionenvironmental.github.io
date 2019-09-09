@@ -3,9 +3,13 @@
 		<nav>
 			<ul>
 				<li><a href="{{ "/" | prepend: site.baseurl }}">GeoVision Environmental Informatics</a></li>
-				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
+				{% for page in site.pages %} 
+                    {% if page.title %}
+                        {% unless page.exclude %}
+                            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                        {% endunless %}
+                    {% endif %} 
+				{% endfor %}
 				<!--<li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>-->
 			</ul>
 		</nav>
